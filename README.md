@@ -1,0 +1,2 @@
+# BoilerPlateNextJs
+Boiler Plate NextJs
