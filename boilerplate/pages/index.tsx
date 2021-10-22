@@ -6,7 +6,7 @@ type Props = {
   title: string
 }
 
-export default function Home({ title = "React" }: Props) {
+export default function Home({ title = 'React' }: Props) {
   return (
     <div className={styles.container}>
       <Head>
@@ -17,7 +17,8 @@ export default function Home({ title = "React" }: Props) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">React Avançado ou NextJs na prática!</a>
+          Welcome to{' '}
+          <a href="https://nextjs.org">React Avançado ou NextJs na prática!</a>
         </h1>
 
         <p className={styles.description}>

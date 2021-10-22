@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "env": {
         "browser": true,
         "es2021": true
@@ -12,7 +11,9 @@
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -34,8 +35,4 @@
         "react/react-in-jsx-scope": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off"
     }
-=======
-  "extends": "next/core-web-vitals",
-  "plugin":"prettier/recommended"
->>>>>>> 1f4dd421a90d6ac1f82b82a9968f6b157f217844
 }
